@@ -16,12 +16,12 @@ class ZhaifuliSpider(scrapy.Spider):
     def parse(self, response):
         urls = response.xpath('/html/body/section/div/div/article/header/h2/a/@href').extract()
         for url in urls:
-            full_url = base_url + url
+            full_url = f'https://{base_url}/url'
             yield Request(full_url, callback=self.second_page)
 
         next_page = response.xpath('/html/body/section/div/div/div[2]/ul/li[6]/a/@href').extract_first()
         if next_page:
-            next_url = f'{base_url}/luyilu/' + next_page
+            next_url = f'https://{base_url}/luyilu/{next_page}'
             yield Request(next_url, callback=self.parse)
 
     def second_page(self, response):
