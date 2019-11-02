@@ -16,7 +16,7 @@ class ZhaifuliSpider(scrapy.Spider):
     def parse(self, response):
         urls = response.xpath('/html/body/section/div/div/article/header/h2/a/@href').extract()
         for url in urls:
-            full_url = f'https://{base_url}/url'
+            full_url = f'https://{base_url}/{url}'
             yield Request(full_url, callback=self.second_page)
 
         next_page = response.xpath('/html/body/section/div/div/div[2]/ul/li[6]/a/@href').extract_first()
