@@ -1,6 +1,3 @@
-import json
-
-
 class _BookViewModel:
     @classmethod
     def package_single(cls, data, keyword):
@@ -59,6 +56,8 @@ class BookViewModel:
         self.summary = book['summary']
         self.pages = book['pages']
         self.isbn = book['isbn']
+        self.pubdate = book['pubdate']
+        self.binding = book['binding']
 
     @property
     def intro(self):

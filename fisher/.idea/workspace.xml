@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d947ed20-fc88-4a63-adde-4fcad5775fcc" name="Default Changelist" comment="" />
+    <list default="true" id="d947ed20-fc88-4a63-adde-4fcad5775fcc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/.idea/ginger.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/app/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/app/api/v1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/app/api/v1/book.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/app/api/v1/user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/app/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/app/config/secure.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/app/config/setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/app/libs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/app/libs/redprint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask-api/ginger/ginger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +33,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1YSoC5DNpHLCEH09iIM2rVB9ICB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,19 +47,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/web" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../flask-api/ginger" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\ThirdPack\CODE\PROJECT_PYCHARM\fisher\app\web" />
-      <recent name="C:\ThirdPack\CODE\PROJECT_PYCHARM\fisher\app\static" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\ThirdPack\CODE\PROJECT_PYCHARM\fisher\app" />
       <recent name="C:\ThirdPack\CODE\PROJECT_PYCHARM\fisher\app\spider" />
       <recent name="C:\ThirdPack\CODE\PROJECT_PYCHARM\fisher\app\libs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ThirdPack\CODE\PROJECT_PYCHARM\GIT_HOME\fisher\app\view_models" />
+      <recent name="C:\ThirdPack\CODE\PROJECT_PYCHARM\fisher\app\web" />
+      <recent name="C:\ThirdPack\CODE\PROJECT_PYCHARM\fisher\app\static" />
     </key>
   </component>
   <component name="RunManager" selected="Python.fisher">
@@ -52,6 +79,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/models/base.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="context_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fisher" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/context_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="email" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="fisher" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/app/libs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app/libs/email.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -107,6 +178,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.fisher" />
+        <item itemvalue="Python.email" />
+        <item itemvalue="Python.context_test" />
         <item itemvalue="Python.base" />
         <item itemvalue="Python.localstack_test" />
       </list>
@@ -126,29 +199,69 @@
       <workItem from="1582959730072" duration="31485000" />
       <workItem from="1583670918400" duration="16000" />
       <workItem from="1583670956481" duration="47271000" />
+      <workItem from="1584087783849" duration="5534000" />
+      <workItem from="1584173804016" duration="1601000" />
+      <workItem from="1584177741836" duration="6052000" />
+      <workItem from="1584242022264" duration="59474000" />
     </task>
+    <task id="LOCAL-00001" summary="update new">
+      <created>1584255728044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584255728044</updated>
+    </task>
+    <task id="LOCAL-00002" summary="update new drift model">
+      <created>1584411734302</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584411734302</updated>
+    </task>
+    <task id="LOCAL-00003" summary="basic fisher done">
+      <created>1584596366788</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584596366808</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update new" />
+    <MESSAGE value="update new drift model" />
+    <MESSAGE value="basic fisher done" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic fisher done" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1568" height="274" key="GridCell.Tab.0.bottom" timestamp="1584087499449">
+    <state x="230" y="239" key="CommitChangelistDialog2" timestamp="1584596363211">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1568" height="274" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1584087499449" />
-    <state width="1568" height="274" key="GridCell.Tab.0.center" timestamp="1584087499449">
+    <state x="230" y="239" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1584596363211" />
+    <state x="1480" y="223" key="FileChooserDialogImpl" timestamp="1584599446276">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1568" height="274" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1584087499449" />
-    <state width="1568" height="274" key="GridCell.Tab.0.left" timestamp="1584087499449">
+    <state x="1480" y="223" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1584599446276" />
+    <state width="1545" height="164" key="GridCell.Tab.0.bottom" timestamp="1584635736040">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1568" height="274" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1584087499449" />
-    <state width="1568" height="274" key="GridCell.Tab.0.right" timestamp="1584087499449">
+    <state width="1545" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1584635736040" />
+    <state width="1545" height="164" key="GridCell.Tab.0.center" timestamp="1584635736039">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1568" height="274" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1584087499449" />
+    <state width="1545" height="164" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1584635736039" />
+    <state width="1545" height="164" key="GridCell.Tab.0.left" timestamp="1584635736039">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1545" height="164" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1584635736039" />
+    <state width="1545" height="164" key="GridCell.Tab.0.right" timestamp="1584635736040">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1545" height="164" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1584635736040" />
     <state width="1568" height="274" key="GridCell.Tab.1.bottom" timestamp="1584087499450">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -169,18 +282,24 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="389" y="178" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1583995797545" />
-    <state x="262" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1583670975719">
+    <state x="262" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1584242045955">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="262" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583670975719" />
+    <state x="262" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1584242045955" />
     <state x="476" y="196" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584066389295">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="476" y="196" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1050@0.0.1920.1050" timestamp="1584066389295" />
+    <state x="458" y="371" width="672" height="678" key="search.everywhere.popup" timestamp="1584539812047">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="458" y="371" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1584539812047" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fisher$localstack_test.coverage" NAME="localstack_test Coverage Results" MODIFIED="1583738648350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/fisher$fisher.coverage" NAME="fisher Coverage Results" MODIFIED="1584084875206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/fisher$email.coverage" NAME="email Coverage Results" MODIFIED="1584359168109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/libs" />
+    <SUITE FILE_PATH="coverage/fisher$fisher.coverage" NAME="fisher Coverage Results" MODIFIED="1584359404074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/fisher$base.coverage" NAME="base Coverage Results" MODIFIED="1584067017219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/app/models" />
+    <SUITE FILE_PATH="coverage/fisher$context_test.coverage" NAME="context_test Coverage Results" MODIFIED="1584261803567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
 </project>
